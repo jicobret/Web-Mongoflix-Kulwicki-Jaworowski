@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Inception",
+    "description": "A thief who steals corporate secrets through dream-sharing technology.",
+    "releaseYear": 2010,
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "director": {
+      "name": "Christopher Nolan",
+      "birthYear": 1970,
+      "country": "UK"
+    },
+    "cast": [
+      { "name": "Leonardo DiCaprio", "role": "Cobb" },
+      { "name": "Joseph Gordon-Levitt", "role": "Arthur" }
+    ],
+    "durationMinutes": 148,
+    "rating": { "average": 8.8, "count": 2000000 },
+    "reviews": [],
+    "views": 2500000
+  },
+  {
+    "title": "The Dark Knight",
+    "description": "Batman faces the Joker in Gotham City.",
+    "releaseYear": 2008,
+    "genre": ["Action", "Crime", "Drama"],
+    "director": {
+      "name": "Christopher Nolan",
+      "birthYear": 1970,
+      "country": "UK"
+    },
+    "cast": [
+      { "name": "Christian Bale", "role": "Bruce Wayne" },
+      { "name": "Heath Ledger", "role": "Joker" }
+    ],
+    "durationMinutes": 152,
+    "rating": { "average": 9.0, "count": 2800000 },
+    "reviews": [],
+    "views": 3000000
+  },
+  {
+    "title": "Interstellar",
+    "description": "A team travels through a wormhole in space.",
+    "releaseYear": 2014,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "director": {
+      "name": "Christopher Nolan",
+      "birthYear": 1970,
+      "country": "UK"
+    },
+    "cast": [
+      { "name": "Matthew McConaughey", "role": "Cooper" }
+    ],
+    "durationMinutes": 169,
+    "rating": { "average": 8.7, "count": 1900000 },
+    "reviews": [],
+    "views": 2200000
+  },
+  {
+    "title": "Avengers: Endgame",
+    "description": "The Avengers assemble once more to undo Thanos' actions.",
+    "releaseYear": 2019,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "director": {
+      "name": "Anthony Russo",
+      "birthYear": 1970,
+      "country": "USA"
+    },
+    "cast": [
+      { "name": "Robert Downey Jr.", "role": "Tony Stark" }
+    ],
+    "durationMinutes": 181,
+    "rating": { "average": 8.4, "count": 1200000 },
+    "reviews": [],
+    "views": 3500000
+  },
+  {
+    "title": "Gladiator",
+    "description": "A former Roman General sets out to exact vengeance.",
+    "releaseYear": 2000,
+    "genre": ["Action", "Adventure", "Drama"],
+    "director": {
+      "name": "Ridley Scott",
+      "birthYear": 1937,
+      "country": "UK"
+    },
+    "cast": [
+      { "name": "Russell Crowe", "role": "Maximus" }
+    ],
+    "durationMinutes": 155,
+    "rating": { "average": 8.5, "count": 1500000 },
+    "reviews": [],
+    "views": 1800000
+  },
+  {
+    "title": "The Matrix",
+    "description": "A hacker discovers reality is a simulation.",
+    "releaseYear": 1999,
+    "genre": ["Action", "Sci-Fi"],
+    "director": {
+      "name": "Lana Wachowski",
+      "birthYear": 1965,
+      "country": "USA"
+    },
+    "cast": [
+      { "name": "Keanu Reeves", "role": "Neo" }
+    ],
+    "durationMinutes": 136,
+    "rating": { "average": 8.7, "count": 1900000 },
+    "reviews": [],
+    "views": 2700000
+  },
+  {
+    "title": "Parasite",
+    "description": "A poor family schemes to become employed by a wealthy family.",
+    "releaseYear": 2019,
+    "genre": ["Drama", "Thriller"],
+    "director": {
+      "name": "Bong Joon Ho",
+      "birthYear": 1969,
+      "country": "South Korea"
+    },
+    "cast": [
+      { "name": "Song Kang-ho", "role": "Ki-taek" }
+    ],
+    "durationMinutes": 132,
+    "rating": { "average": 8.5, "count": 900000 },
+    "reviews": [],
+    "views": 1500000
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "description": "In a post-apocalyptic wasteland, Max teams up with Furiosa.",
+    "releaseYear": 2015,
+    "genre": ["Action", "Adventure"],
+    "director": {
+      "name": "George Miller",
+      "birthYear": 1945,
+      "country": "Australia"
+    },
+    "cast": [
+      { "name": "Tom Hardy", "role": "Max" }
+    ],
+    "durationMinutes": 120,
+    "rating": { "average": 8.1, "count": 1100000 },
+    "reviews": [],
+    "views": 1600000
+  },
+  {
+    "title": "Dune",
+    "description": "Feature adaptation of Frank Herbert's science fiction novel.",
+    "releaseYear": 2021,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "director": {
+      "name": "Denis Villeneuve",
+      "birthYear": 1967,
+      "country": "Canada"
+    },
+    "cast": [
+      { "name": "Timothée Chalamet", "role": "Paul Atreides" }
+    ],
+    "durationMinutes": 155,
+    "rating": { "average": 8.0, "count": 800000 },
+    "reviews": [],
+    "views": 1900000
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "description": "After thirty years, Maverick trains a new generation of pilots.",
+    "releaseYear": 2022,
+    "genre": ["Action", "Drama"],
+    "director": {
+      "name": "Joseph Kosinski",
+      "birthYear": 1974,
+      "country": "USA"
+    },
+    "cast": [
+      { "name": "Tom Cruise", "role": "Maverick" }
+    ],
+    "durationMinutes": 130,
+    "rating": { "average": 8.3, "count": 700000 },
+    "reviews": [],
+    "views": 2100000
+  }
+]
