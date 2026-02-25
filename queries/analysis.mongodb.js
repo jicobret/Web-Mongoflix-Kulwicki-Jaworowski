@@ -36,3 +36,24 @@ const viewsByDirector = db.movies.aggregate([
 ])
 print("---------- laczne wyswietlenia poszczegolnych rezyserow ----------")
 viewsByDirector.forEach(doc => printjson(doc))
+
+
+//dodawanie recenzji:
+
+db.movies.updateOne(
+    {
+        title: "Inception",
+        "reviews.userId": { $ne: "user_021" }
+    },
+    {
+        $push: {
+            reviews: {
+                userId: "user_021",
+                username: "new_user",
+                rating: 9,
+                comment: "Amazing experience!",
+                createdAt: new Date()
+            }
+        }
+    }
+)

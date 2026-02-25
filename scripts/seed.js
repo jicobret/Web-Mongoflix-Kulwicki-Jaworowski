@@ -1,6 +1,7 @@
 db = db.getSiblingDB('mongoflix');
 
 db.movies.drop()
+
 console.log("witaj w bazie mongoflix!");
 
 const fs = require("fs")
