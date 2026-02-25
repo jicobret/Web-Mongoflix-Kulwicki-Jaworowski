@@ -4,14 +4,13 @@
     "description": "A thief who steals corporate secrets through dream-sharing technology.",
     "releaseYear": 2010,
     "genre": ["Action", "Sci-Fi", "Thriller"],
-    "director": {
-      "name": "Christopher Nolan",
-      "birthYear": 1970,
-      "country": "UK"
-    },
+    "director": { "name": "Christopher Nolan", "birthYear": 1970, "country": "UK" },
     "cast": [
       { "name": "Leonardo DiCaprio", "role": "Cobb" },
-      { "name": "Joseph Gordon-Levitt", "role": "Arthur" }
+      { "name": "Joseph Gordon-Levitt", "role": "Arthur" },
+      { "name": "Elliot Page", "role": "Ariadne" },
+      { "name": "Tom Hardy", "role": "Eames" },
+      { "name": "Ken Watanabe", "role": "Saito" }
     ],
     "durationMinutes": 148,
     "rating": { "average": 8.8, "count": 2000000 },
@@ -23,14 +22,13 @@
     "description": "Batman faces the Joker in Gotham City.",
     "releaseYear": 2008,
     "genre": ["Action", "Crime", "Drama"],
-    "director": {
-      "name": "Christopher Nolan",
-      "birthYear": 1970,
-      "country": "UK"
-    },
+    "director": { "name": "Christopher Nolan", "birthYear": 1970, "country": "UK" },
     "cast": [
       { "name": "Christian Bale", "role": "Bruce Wayne" },
-      { "name": "Heath Ledger", "role": "Joker" }
+      { "name": "Heath Ledger", "role": "Joker" },
+      { "name": "Aaron Eckhart", "role": "Harvey Dent" },
+      { "name": "Michael Caine", "role": "Alfred" },
+      { "name": "Gary Oldman", "role": "Gordon" }
     ],
     "durationMinutes": 152,
     "rating": { "average": 9.0, "count": 2800000 },
@@ -42,13 +40,13 @@
     "description": "A team travels through a wormhole in space.",
     "releaseYear": 2014,
     "genre": ["Adventure", "Drama", "Sci-Fi"],
-    "director": {
-      "name": "Christopher Nolan",
-      "birthYear": 1970,
-      "country": "UK"
-    },
+    "director": { "name": "Christopher Nolan", "birthYear": 1970, "country": "UK" },
     "cast": [
-      { "name": "Matthew McConaughey", "role": "Cooper" }
+      { "name": "Matthew McConaughey", "role": "Cooper" },
+      { "name": "Anne Hathaway", "role": "Brand" },
+      { "name": "Jessica Chastain", "role": "Murph" },
+      { "name": "Michael Caine", "role": "Professor Brand" },
+      { "name": "Matt Damon", "role": "Dr. Mann" }
     ],
     "durationMinutes": 169,
     "rating": { "average": 8.7, "count": 1900000 },
@@ -60,13 +58,13 @@
     "description": "The Avengers assemble once more to undo Thanos' actions.",
     "releaseYear": 2019,
     "genre": ["Action", "Adventure", "Sci-Fi"],
-    "director": {
-      "name": "Anthony Russo",
-      "birthYear": 1970,
-      "country": "USA"
-    },
+    "director": { "name": "Anthony Russo", "birthYear": 1970, "country": "USA" },
     "cast": [
-      { "name": "Robert Downey Jr.", "role": "Tony Stark" }
+      { "name": "Robert Downey Jr.", "role": "Tony Stark" },
+      { "name": "Chris Evans", "role": "Steve Rogers" },
+      { "name": "Scarlett Johansson", "role": "Natasha Romanoff" },
+      { "name": "Mark Ruffalo", "role": "Bruce Banner" },
+      { "name": "Chris Hemsworth", "role": "Thor" }
     ],
     "durationMinutes": 181,
     "rating": { "average": 8.4, "count": 1200000 },
@@ -75,16 +73,16 @@
   },
   {
     "title": "Gladiator",
-    "description": "A former Roman General sets out to exact vengeance.",
+    "description": "A former Roman General seeks revenge.",
     "releaseYear": 2000,
     "genre": ["Action", "Adventure", "Drama"],
-    "director": {
-      "name": "Ridley Scott",
-      "birthYear": 1937,
-      "country": "UK"
-    },
+    "director": { "name": "Ridley Scott", "birthYear": 1937, "country": "UK" },
     "cast": [
-      { "name": "Russell Crowe", "role": "Maximus" }
+      { "name": "Russell Crowe", "role": "Maximus" },
+      { "name": "Joaquin Phoenix", "role": "Commodus" },
+      { "name": "Connie Nielsen", "role": "Lucilla" },
+      { "name": "Oliver Reed", "role": "Proximo" },
+      { "name": "Richard Harris", "role": "Marcus Aurelius" }
     ],
     "durationMinutes": 155,
     "rating": { "average": 8.5, "count": 1500000 },
@@ -96,13 +94,13 @@
     "description": "A hacker discovers reality is a simulation.",
     "releaseYear": 1999,
     "genre": ["Action", "Sci-Fi"],
-    "director": {
-      "name": "Lana Wachowski",
-      "birthYear": 1965,
-      "country": "USA"
-    },
+    "director": { "name": "Lana Wachowski", "birthYear": 1965, "country": "USA" },
     "cast": [
-      { "name": "Keanu Reeves", "role": "Neo" }
+      { "name": "Keanu Reeves", "role": "Neo" },
+      { "name": "Laurence Fishburne", "role": "Morpheus" },
+      { "name": "Carrie-Anne Moss", "role": "Trinity" },
+      { "name": "Hugo Weaving", "role": "Agent Smith" },
+      { "name": "Joe Pantoliano", "role": "Cypher" }
     ],
     "durationMinutes": 136,
     "rating": { "average": 8.7, "count": 1900000 },
@@ -111,16 +109,16 @@
   },
   {
     "title": "Parasite",
-    "description": "A poor family schemes to become employed by a wealthy family.",
+    "description": "A poor family infiltrates a wealthy household.",
     "releaseYear": 2019,
     "genre": ["Drama", "Thriller"],
-    "director": {
-      "name": "Bong Joon Ho",
-      "birthYear": 1969,
-      "country": "South Korea"
-    },
+    "director": { "name": "Bong Joon Ho", "birthYear": 1969, "country": "South Korea" },
     "cast": [
-      { "name": "Song Kang-ho", "role": "Ki-taek" }
+      { "name": "Song Kang-ho", "role": "Ki-taek" },
+      { "name": "Lee Sun-kyun", "role": "Dong-ik" },
+      { "name": "Cho Yeo-jeong", "role": "Yeon-gyo" },
+      { "name": "Choi Woo-shik", "role": "Ki-woo" },
+      { "name": "Park So-dam", "role": "Ki-jung" }
     ],
     "durationMinutes": 132,
     "rating": { "average": 8.5, "count": 900000 },
@@ -129,16 +127,16 @@
   },
   {
     "title": "Mad Max: Fury Road",
-    "description": "In a post-apocalyptic wasteland, Max teams up with Furiosa.",
+    "description": "Max teams up with Furiosa in a desert wasteland.",
     "releaseYear": 2015,
     "genre": ["Action", "Adventure"],
-    "director": {
-      "name": "George Miller",
-      "birthYear": 1945,
-      "country": "Australia"
-    },
+    "director": { "name": "George Miller", "birthYear": 1945, "country": "Australia" },
     "cast": [
-      { "name": "Tom Hardy", "role": "Max" }
+      { "name": "Tom Hardy", "role": "Max" },
+      { "name": "Charlize Theron", "role": "Furiosa" },
+      { "name": "Nicholas Hoult", "role": "Nux" },
+      { "name": "Hugh Keays-Byrne", "role": "Immortan Joe" },
+      { "name": "Rosie Huntington-Whiteley", "role": "Splendid" }
     ],
     "durationMinutes": 120,
     "rating": { "average": 8.1, "count": 1100000 },
@@ -147,16 +145,16 @@
   },
   {
     "title": "Dune",
-    "description": "Feature adaptation of Frank Herbert's science fiction novel.",
+    "description": "Feature adaptation of Frank Herbert's novel.",
     "releaseYear": 2021,
     "genre": ["Action", "Adventure", "Sci-Fi"],
-    "director": {
-      "name": "Denis Villeneuve",
-      "birthYear": 1967,
-      "country": "Canada"
-    },
+    "director": { "name": "Denis Villeneuve", "birthYear": 1967, "country": "Canada" },
     "cast": [
-      { "name": "Timothée Chalamet", "role": "Paul Atreides" }
+      { "name": "Timothée Chalamet", "role": "Paul Atreides" },
+      { "name": "Rebecca Ferguson", "role": "Lady Jessica" },
+      { "name": "Oscar Isaac", "role": "Duke Leto" },
+      { "name": "Josh Brolin", "role": "Gurney Halleck" },
+      { "name": "Zendaya", "role": "Chani" }
     ],
     "durationMinutes": 155,
     "rating": { "average": 8.0, "count": 800000 },
@@ -165,20 +163,110 @@
   },
   {
     "title": "Top Gun: Maverick",
-    "description": "After thirty years, Maverick trains a new generation of pilots.",
+    "description": "Maverick trains a new generation of pilots.",
     "releaseYear": 2022,
     "genre": ["Action", "Drama"],
-    "director": {
-      "name": "Joseph Kosinski",
-      "birthYear": 1974,
-      "country": "USA"
-    },
+    "director": { "name": "Joseph Kosinski", "birthYear": 1974, "country": "USA" },
     "cast": [
-      { "name": "Tom Cruise", "role": "Maverick" }
+      { "name": "Tom Cruise", "role": "Maverick" },
+      { "name": "Miles Teller", "role": "Rooster" },
+      { "name": "Jennifer Connelly", "role": "Penny" },
+      { "name": "Jon Hamm", "role": "Cyclone" },
+      { "name": "Val Kilmer", "role": "Iceman" }
     ],
     "durationMinutes": 130,
     "rating": { "average": 8.3, "count": 700000 },
     "reviews": [],
     "views": 2100000
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "description": "Two imprisoned men bond over decades.",
+    "releaseYear": 1994,
+    "genre": ["Drama"],
+    "director": { "name": "Frank Darabont", "birthYear": 1959, "country": "USA" },
+    "cast": [
+      { "name": "Tim Robbins", "role": "Andy Dufresne" },
+      { "name": "Morgan Freeman", "role": "Red" },
+      { "name": "Bob Gunton", "role": "Warden Norton" },
+      { "name": "William Sadler", "role": "Heywood" },
+      { "name": "Clancy Brown", "role": "Captain Hadley" }
+    ],
+    "durationMinutes": 142,
+    "rating": { "average": 9.3, "count": 3000000 },
+    "reviews": [],
+    "views": 3200000
+  },
+  {
+    "title": "Pulp Fiction",
+    "description": "The lives of criminals intertwine in Los Angeles.",
+    "releaseYear": 1994,
+    "genre": ["Crime", "Drama"],
+    "director": { "name": "Quentin Tarantino", "birthYear": 1963, "country": "USA" },
+    "cast": [
+      { "name": "John Travolta", "role": "Vincent Vega" },
+      { "name": "Samuel L. Jackson", "role": "Jules Winnfield" },
+      { "name": "Uma Thurman", "role": "Mia Wallace" },
+      { "name": "Bruce Willis", "role": "Butch" },
+      { "name": "Ving Rhames", "role": "Marsellus Wallace" }
+    ],
+    "durationMinutes": 154,
+    "rating": { "average": 8.9, "count": 2100000 },
+    "reviews": [],
+    "views": 2400000
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "description": "A hobbit begins a journey to destroy a powerful ring.",
+    "releaseYear": 2001,
+    "genre": ["Adventure", "Fantasy"],
+    "director": { "name": "Peter Jackson", "birthYear": 1961, "country": "New Zealand" },
+    "cast": [
+      { "name": "Elijah Wood", "role": "Frodo" },
+      { "name": "Ian McKellen", "role": "Gandalf" },
+      { "name": "Viggo Mortensen", "role": "Aragorn" },
+      { "name": "Orlando Bloom", "role": "Legolas" },
+      { "name": "Sean Astin", "role": "Sam" }
+    ],
+    "durationMinutes": 178,
+    "rating": { "average": 8.8, "count": 1900000 },
+    "reviews": [],
+    "views": 2600000
+  },
+  {
+    "title": "Fight Club",
+    "description": "An insomniac forms an underground fight club.",
+    "releaseYear": 1999,
+    "genre": ["Drama"],
+    "director": { "name": "David Fincher", "birthYear": 1962, "country": "USA" },
+    "cast": [
+      { "name": "Brad Pitt", "role": "Tyler Durden" },
+      { "name": "Edward Norton", "role": "Narrator" },
+      { "name": "Helena Bonham Carter", "role": "Marla Singer" },
+      { "name": "Meat Loaf", "role": "Robert Paulson" },
+      { "name": "Jared Leto", "role": "Angel Face" }
+    ],
+    "durationMinutes": 139,
+    "rating": { "average": 8.8, "count": 2200000 },
+    "reviews": [],
+    "views": 2300000
+  },
+  {
+    "title": "Forrest Gump",
+    "description": "The presidencies of Kennedy and Johnson through the eyes of Forrest.",
+    "releaseYear": 1994,
+    "genre": ["Drama", "Romance"],
+    "director": { "name": "Robert Zemeckis", "birthYear": 1951, "country": "USA" },
+    "cast": [
+      { "name": "Tom Hanks", "role": "Forrest Gump" },
+      { "name": "Robin Wright", "role": "Jenny" },
+      { "name": "Gary Sinise", "role": "Lt. Dan" },
+      { "name": "Mykelti Williamson", "role": "Bubba" },
+      { "name": "Sally Field", "role": "Mrs. Gump" }
+    ],
+    "durationMinutes": 142,
+    "rating": { "average": 8.8, "count": 2100000 },
+    "reviews": [],
+    "views": 2500000
   }
 ]
