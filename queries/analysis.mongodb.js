@@ -3,8 +3,7 @@ db = db.getSiblingDB('mongoflix');
 const actionMovies = db.movies.find(
     { genre: "Action" },
     { title: 1, genre: 1, releaseYear: 1 }
-).pretty()
-
+)
 print("---------- filmy z gatunku akcji ----------")
 actionMovies.forEach(doc => printjson(doc))
 
@@ -17,9 +16,10 @@ const avgRating = db.movies.find(
         ]
     },
     { title: 1, releaseYear: 1, "rating.average": 1 }
-).pretty()
+)
 print("---------- filmy z 2021 z ocena powyzej 8 ----------")
 avgRating.forEach(doc => printjson(doc))
+
 
 const viewsByGenre = db.movies.aggregate([
     { $unwind: "$genre" },
