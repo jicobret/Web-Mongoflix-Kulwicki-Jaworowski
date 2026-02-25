@@ -1,41 +1,39 @@
 db = db.getSiblingDB('mongoflix');
 
-const actionMovies = db.movies.aggregate([
-    {
-        $match: {
-            genre: "Action",
-            releaseYear: { $gt: 2020 }
-        }
-    }
-])
-print("---------- filmy z gatunku akcji po 2020 ----------")
+const actionMovies = db.movies.find(
+    { genre: "Action" },
+    { title: 1, genre: 1, releaseYear: 1 }
+).pretty()
+
+print("---------- filmy z gatunku akcji ----------")
 actionMovies.forEach(doc => printjson(doc))
 
 
-const avgRating = db.movies.aggregate([
+const avgRating = db.movies.find(
     {
-        $group: {
-            _id: null,
-            averageRating: { $avg: "$rating.average" }
-        }
-    }
-])
-print("---------- srednia ocena wszystkich filmow ----------")
+        $and: [
+            { releaseYear: { $gt: 2021 } },
+            { "rating.average": { $gt: 8 } }
+        ]
+    },
+    { title: 1, releaseYear: 1, "rating.average": 1 }
+).pretty()
+print("---------- filmy z 2021 z ocena powyzej 8 ----------")
 avgRating.forEach(doc => printjson(doc))
 
-const viewsByDirector = db.movies.aggregate([
+const viewsByGenre = db.movies.aggregate([
+    { $unwind: "$genre" },
     {
         $group: {
-            _id: "$director.name",
-            totalViews: { $sum: "$views" }
+            _id: "$genre",
+            averageRating: { $avg: "$rating.average" },
+            count: { $sum: 1 }
         }
     },
-    {
-        $sort: { totalViews: -1 }
-    }
+    { $sort: { averageRating: -1 } }
 ])
-print("---------- laczne wyswietlenia poszczegolnych rezyserow ----------")
-viewsByDirector.forEach(doc => printjson(doc))
+print("---------- srednia ocena dla kazdego gatunku ----------")
+viewsByGenre.forEach(doc => printjson(doc))
 
 
 //dodawanie recenzji:
