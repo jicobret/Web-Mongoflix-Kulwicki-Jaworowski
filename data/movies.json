@@ -18,7 +18,8 @@
       { "userId": "user_001", "username": "john_doe", "rating": 9, "comment": "Mind-blowing concept.", "createdAt": "2024-01-10T12:00:00Z" },
       { "userId": "user_002", "username": "anna_k", "rating": 8, "comment": "Complex but rewarding.", "createdAt": "2024-01-12T09:30:00Z" }
     ],
-    "views": 2500000
+    "views": 2500000,
+    "isPremium": true
   },
   {
     "title": "The Dark Knight",
@@ -39,7 +40,8 @@
       { "userId": "user_003", "username": "movie_fan", "rating": 10, "comment": "Best superhero movie ever.", "createdAt": "2024-01-15T15:45:00Z" },
       { "userId": "user_004", "username": "cinema_guy", "rating": 9, "comment": "Ledger was phenomenal.", "createdAt": "2024-01-18T18:20:00Z" }
     ],
-    "views": 3000000
+    "views": 3000000,
+    "isPremium": false
   },
   {
     "title": "Interstellar",
@@ -60,7 +62,8 @@
       { "userId": "user_005", "username": "astro_lover", "rating": 9, "comment": "Emotional and stunning.", "createdAt": "2024-02-01T10:00:00Z" },
       { "userId": "user_006", "username": "spacefan", "rating": 8, "comment": "Great soundtrack.", "createdAt": "2024-02-02T11:00:00Z" }
     ],
-    "views": 2200000
+    "views": 2200000,
+    "isPremium": true
   },
   {
     "title": "Avengers: Endgame",
@@ -81,7 +84,8 @@
       { "userId": "user_007", "username": "marvel_fan", "rating": 9, "comment": "Epic conclusion.", "createdAt": "2024-02-05T12:00:00Z" },
       { "userId": "user_008", "username": "hero_addict", "rating": 8, "comment": "Very emotional.", "createdAt": "2024-02-06T13:00:00Z" }
     ],
-    "views": 3500000
+    "views": 3500000,
+    "isPremium": true
   },
   {
     "title": "Gladiator",
@@ -102,7 +106,8 @@
       { "userId": "user_009", "username": "historybuff", "rating": 9, "comment": "Powerful story.", "createdAt": "2024-02-07T14:00:00Z" },
       { "userId": "user_010", "username": "epiclover", "rating": 8, "comment": "Great performances.", "createdAt": "2024-02-08T15:00:00Z" }
     ],
-    "views": 1800000
+    "views": 1800000,
+    "isPremium": false
   },
   {
     "title": "The Matrix",
@@ -123,7 +128,8 @@
       { "userId": "user_011", "username": "neo_fan", "rating": 10, "comment": "Revolutionary sci-fi.", "createdAt": "2024-02-10T10:00:00Z" },
       { "userId": "user_012", "username": "cyberpunk", "rating": 9, "comment": "Ahead of its time.", "createdAt": "2024-02-11T11:00:00Z" }
     ],
-    "views": 2700000
+    "views": 2700000,
+    "isPremium": false
   },
   {
     "title": "Parasite",
@@ -144,7 +150,8 @@
       { "userId": "user_013", "username": "filmcritic", "rating": 9, "comment": "Brilliant commentary.", "createdAt": "2024-02-12T12:00:00Z" },
       { "userId": "user_014", "username": "thrillerfan", "rating": 8, "comment": "Very intense.", "createdAt": "2024-02-13T13:00:00Z" }
     ],
-    "views": 1500000
+    "views": 1500000,
+    "isPremium": true
   },
   {
     "title": "Mad Max: Fury Road",
@@ -165,7 +172,8 @@
       { "userId": "user_015", "username": "actionlover", "rating": 8, "comment": "Non-stop action.", "createdAt": "2024-02-14T14:00:00Z" },
       { "userId": "user_016", "username": "cinematic", "rating": 9, "comment": "Visually stunning.", "createdAt": "2024-02-15T15:00:00Z" }
     ],
-    "views": 1600000
+    "views": 1600000,
+    "isPremium": false
   },
   {
     "title": "Dune",
@@ -186,7 +194,8 @@
       { "userId": "user_017", "username": "scififan", "rating": 8, "comment": "Amazing world-building.", "createdAt": "2024-02-16T16:00:00Z" },
       { "userId": "user_018", "username": "bookreader", "rating": 9, "comment": "Great adaptation.", "createdAt": "2024-02-17T17:00:00Z" }
     ],
-    "views": 1900000
+    "views": 1900000,
+    "isPremium": true
   },
   {
     "title": "Top Gun: Maverick",
@@ -207,6 +216,7 @@
       { "userId": "user_019", "username": "aviationfan", "rating": 8, "comment": "Incredible flight scenes.", "createdAt": "2024-02-18T18:00:00Z" },
       { "userId": "user_020", "username": "retrolover", "rating": 9, "comment": "Great nostalgia.", "createdAt": "2024-02-19T19:00:00Z" }
     ],
-    "views": 2100000
+    "views": 2100000,
+    "isPremium": true
   }
 ]
